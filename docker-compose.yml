@@ -1,0 +1,6 @@
+services:
+  c-app:
+    image: ghcr.io/ikaramz/c-docker-ghcr-runner:latest
+    container_name: c-calculator-prod
+    restart: unless-stopped
+
